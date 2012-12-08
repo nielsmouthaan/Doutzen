@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  Doutzen
+
+  Created by Niels Mouthaan on 27-10-12.
+  Copyright (c) 2012. All rights reserved.
+*/
+
+"GeneralMinute" = "minute";
+"GeneralMinutes" = "minutes";
+"GeneralError" = "Error";
+
+"ErrorConnectionError" = "Connection error";
+"ErrorAuthenticationError" = "Authentication error";
+"ErrorUnknownError" = "Unknown error";
+
+"PreferencesManualOnly" = "Manual only";
+
+"CheckerChecked" = "Checked";
+"CheckerNotCheckedYet" = "Not checked yet";
+
+"QuincyKitFileError" = "File error";
+"QuincyKitSymbolicationError" = "Symbolication error";
+"QuincyKitUpdateError" = "Update error";
+
+"TextToSpeechVersion" = "Version";
+"TextToSpeechUnknown" = "Unknown";
+"TextToSpeechError" = "An error has occurred, failed to check for crashes";
+"TextToSpeechOneErrorFound" = "crash found for";
+"TextToSpeechMultipleErrorsFound" = "crashes found for";
