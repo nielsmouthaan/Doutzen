@@ -24,8 +24,8 @@
             obj = [obj stringByReplacingOccurrencesOfString:@"http://" withString:[NSString stringWithFormat:@"http://%@:%@@", [Configuration quincyKitUsername], [Configuration quincyKitPassword]]];
             obj = [obj stringByReplacingOccurrencesOfString:@"https://" withString:[NSString stringWithFormat:@"https://%@:%@@", [Configuration quincyKitUsername], [Configuration quincyKitPassword]]];
         }
-        
-        return [NSURL URLWithString:obj];
+    
+	return [NSURL URLWithString:[obj stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding]];    
     } else {
         return nil;
     }
